@@ -6,9 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import Menu from './Components/Menu'
 import AboutUs from './Components/AboutUs'
 import Contact from './Components/Contact' 
-import facebook from './assets/Facebook.png'
-import instagram from './assets/Instagram.png'
-import linkedin from './assets/LinkedIn.png'
+
 
 function App() {
 
