@@ -71,9 +71,9 @@ function App() {
 
               
               <div className="col-md-6 text-center text-md-end">
-                <a href="#" className="text-secondary text-decoration-none mx-2 large text-white">Twitter</a>
-                <a href="#" className="text-secondary text-decoration-none mx-2 large text-white">GitHub</a>
-                <a href="#" className="text-secondary text-decoration-none mx-2 large text-white">LinkedIn</a>
+                <a href="https://x.com/akbarmirza5" className="text-secondary text-decoration-none mx-2 large text-white">Twitter</a>
+                <a href="https://github.com/akbar98-7/PizzaReact" className="text-secondary text-decoration-none mx-2 large text-white">GitHub</a>
+                <a href="https://www.linkedin.com/in/mohammad-akber-mirza-613b7b9a/" className="text-secondary text-decoration-none mx-2 large text-white">LinkedIn</a>
               </div>
             </div>
           </div>
