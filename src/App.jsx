@@ -5,7 +5,7 @@ import Home from './Components/Home'
 import { Route, Routes } from 'react-router-dom'
 import Menu from './Components/Menu'
 import AboutUs from './Components/AboutUs'
-import Contact from './Components/Contact' 
+import Contact from './Components/Contact'
 
 
 function App() {
@@ -46,8 +46,6 @@ function App() {
           </div>
         </nav>
 
-        
-
         <Routes>
 
           <Route path="/" element={<Home />} />
@@ -58,13 +56,39 @@ function App() {
 
         </Routes>
 
+        <footer className="bg-dark text-light py-4 mt-auto border-top border-secondary">
+          <div className="container">
+            <div className="row align-items-center">
+              {/* Brand/Copyright Section */}
+              <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                <h5 className="mb-1 text-uppercase fw-bold" style={{ letterSpacing: '1px' }}>
+                  Pizza Brand
+                </h5>
+                <p className="small text-secondary mb-0">
+                  &copy; 2026 Crafted with care. All rights reserved.
+                </p>
+              </div>
+
+              
+              <div className="col-md-6 text-center text-md-end">
+                <a href="#" className="text-secondary text-decoration-none mx-2 large text-white">Twitter</a>
+                <a href="#" className="text-secondary text-decoration-none mx-2 large text-white">GitHub</a>
+                <a href="#" className="text-secondary text-decoration-none mx-2 large text-white">LinkedIn</a>
+              </div>
+            </div>
+          </div>
 
 
-
-
-
-
-
+          <style>{`
+        .hover-light:hover {
+          color: #fff !important;
+          transition: 0.3s;
+        }
+        footer {
+          background: linear-gradient(180deg, #212529 0%, #1a1d20 100%);
+        }
+      `}</style>
+        </footer>
 
 
       </div>
